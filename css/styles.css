@@ -8,3 +8,15 @@ img {
   max-width: 80%;
   
 }
+
+
+
+
+
+
+
+
+.footer {
+  flex-direction: row;
+  justify-content: space-between;
+}
