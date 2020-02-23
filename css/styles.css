@@ -89,6 +89,9 @@ a {
   padding: 1em .5em;
   border-top: solid 1px lightgrey;
 }
+.footNav {
+  display: none;
+}
 
 
 /* * Media Queries */
@@ -151,5 +154,21 @@ a {
   margin: 2em 145px;
 }
 
+.footer {
+  margin-bottom: 45px;
+}
+
+#mobileFoot {
+  display: none;
+}
+
+.footNav {
+  display: flex;
+  flex-direction: row;
+}
+
+.footNav .navItem {
+  padding: .1em 1em;
+}
 
 }
