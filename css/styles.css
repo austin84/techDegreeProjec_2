@@ -107,7 +107,7 @@ a:hover {
 /* * Media Queries */
 
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 768px) {
 
 
   .mainNav {
