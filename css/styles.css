@@ -1,22 +1,53 @@
+
+/* * Base Styles */
+
+h1,
+h2,
+h3 {
+  font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+img {
+  max-width: 90%;
+  
+}
+
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-img {
-  max-width: 80%;
-  
+
+.profileImage {
+  max-width: 70%;
+  align-self: center;
 }
 
 
+.contact {
+  margin-bottom: 4em;
+}
 
-
-
-
+.info {
+  flex-direction: column;
+}
+.phone {
+  margin-left: 1em;
+}
+.email {
+  margin-left: 1em;
+}
 
 
 .footer {
   flex-direction: row;
   justify-content: space-between;
+  padding: 1em .5em;
+
+  border-top: solid 1px lightgrey;
 }
