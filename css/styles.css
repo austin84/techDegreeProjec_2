@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #fafafa;
+  background-color: #white;
 }
 
 h1,
@@ -55,7 +55,6 @@ a:hover {
 
 .navItem {
   align-items: center;
-  background-color: white;
   margin: 3px 30px;
   padding: 2px 90px;
 }
@@ -67,7 +66,6 @@ a:hover {
 }
 
 .portfolio {
-  background-color: white;
   padding-top: 20px;
   padding-bottom: 40px;
 }
@@ -75,12 +73,11 @@ a:hover {
 .skills {
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: white;
 }
 
 .skills-title {
-  padding: 30px 200px;
-  background-color: white;
+  padding: 1px 0px;
+  text-align: center;
 }
 .skills-image {
   max-width: 95%;
@@ -88,6 +85,7 @@ a:hover {
 }
 .skills-list {
   flex-direction: row;
+  flex-wrap: wrap;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   list-style: none;
   padding-bottom: 30px;
@@ -98,7 +96,7 @@ a:hover {
   color: white;
   text-align: center;
   justify-content: space-around;
-  max-width: 20%;
+  max-width: 24%;
   max-height: fit-content;
   margin: 4px;
   padding: 9px;
@@ -172,6 +170,9 @@ a:hover {
     align-items: center;
     flex-wrap: wrap;
     padding: 15px;
+  }
+  .portfolio p {
+    font-size: .9em;
   }
   .title {
     display: flex;
