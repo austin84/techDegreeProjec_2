@@ -90,6 +90,7 @@ a:hover {
   flex-direction: row;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   list-style: none;
+  padding-bottom: 30px;
 }
 
 .skills-list li {
