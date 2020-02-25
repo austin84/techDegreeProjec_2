@@ -1,97 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Poppins&display=swap" rel="stylesheet">
-  <title>Responsive</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans|Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <title>Responsive</title>
+  </head>
+  <body>
+    <!-- * Header containing H1, Nav, and Intro Image/Paragraph-->
 
-  <!-- * Header containing H1, Nav, and Intro Image/Paragraph-->
-
-  <header>
-    <div class="container header">
-      <h1 class="studentName">Austin Veatch</h1>
-      <nav class="mainNav container">
+    <header>
+      <div class="container header">
+        <h1 class="studentName">Austin Veatch</h1>
+        <nav class="mainNav container">
           <a class="navItem" href="#top">Home</a>
           <a class="navItem" href="#portfolio">Portfolio</a>
+          <a class="navItem" href="#skills">Skills</a>
           <a class="navItem" href="#contact">Contact</a>
-      </nav>
-    </div>
-      <div class="intro container">
-      <img class="profileImage" src="images/responsive-layout-profile.png" alt="Block Character to Represent Designer">
-        <p class="introParagraph">Hello there! I am a Front-End Developer who loves responsive design and CSS. I have recently attained a Front-End Web Development TechDegree from Treehouse and am ready to use my new skills to show everyone the joy of the "Mobile First" way of life!</p>
+        </nav>
       </div>
-  </header>
+      <div class="intro container">
+        <img
+          class="profileImage"
+          src="images/responsive-layout-profile.png"
+          alt="Block Character to Represent Designer"
+        />
+        <p class="introParagraph">
+          Hello there! I am a Front-End Developer who loves responsive design
+          and CSS. I have recently attained a Front-End Web Development
+          TechDegree from Treehouse and am ready to use my new skills to show
+          everyone the joy of the "Mobile First" way of life!
+        </p>
+      </div>
+    </header>
 
-<!-- * Portfolio containing subtitles and remaining images, each followed by a paragraph-->
+    <!-- * Portfolio containing subtitles and remaining images, each followed by a paragraph-->
 
-  <section>
-    <div class="title">
-    <h2>Portfolio</h2>
-  </div>
-  <div class="container portfolio" id="portfolio">
-    <div class="portObject container first">
-      <img src="images/portfolio-1.png" alt="Image showing a grid layout">
-      <h3>Marketing Page</h3>
-      <p>This project shows the front page of a marketing website meant for a specific business I am interested in.</p>
-    </div>
-    <div class="portObject container second">
-      <img src="images/portfolio-2.png" alt="Image showing a bar graph">
-      <h3>Search Page</h3>
-      <p>This project ssearches through a specific database to find information that the user is trying to look up.</p>
-    </div>
-    <div class="portObject container">
-      <img src="images/portfolio-3.png" alt="Image showing a horizontal layout">
-      <h3>Travel App</h3>
-      <p>This project shows multiple travel times based off of different travel methods to allow use of the path of least resistance.</p>
-    </div>
-    <div class="portObject container">
-      <img src="images/portfolio-4.png" alt="Image showing a map">
-      <h3>Map of Favorite Spots</h3>
-      <p>This project a Map API to plot out points for my favorite spots around town for a DIY walking tour.</p>
-    </div>
-    <div class="portObject container">
-      <img src="images/portfolio-5.png" alt="Image showing a image gallery">
-      <h3>Photo Gallery</h3>
-      <p>This project shows pictures from a recent trip and allows for easy navigation.</p>
-    </div>
-    <div class="portObject container">
-      <img src="images/portfolio-6.png" alt="Image showing a calculator">
-      <h3>Calculator</h3>
-      <p>Someone can enter any numbers they like and use the blue button to get the result.</p>
-    </div>
-  </div>
-</section>
+    <section>
+      <div class="title">
+        <h2>Portfolio</h2>
+      </div>
+      <div class="container portfolio" id="portfolio">
+        <div class="portObject container first">
+          <img src="images/portfolio-1.png" alt="Image showing a grid layout" />
+          <h3>Marketing Page</h3>
+          <p>
+            This project shows the front page of a marketing website meant for a
+            specific business I am interested in.
+          </p>
+        </div>
+        <div class="portObject container second">
+          <img src="images/portfolio-2.png" alt="Image showing a bar graph" />
+          <h3>Search Page</h3>
+          <p>
+            This project ssearches through a specific database to find
+            information that the user is trying to look up.
+          </p>
+        </div>
+        <div class="portObject container">
+          <img
+            src="images/portfolio-3.png"
+            alt="Image showing a horizontal layout"
+          />
+          <h3>Travel App</h3>
+          <p>
+            This project shows multiple travel times based off of different
+            travel methods to allow use of the path of least resistance.
+          </p>
+        </div>
+        <div class="portObject container">
+          <img src="images/portfolio-4.png" alt="Image showing a map" />
+          <h3>Map of Favorite Spots</h3>
+          <p>
+            This project a Map API to plot out points for my favorite spots
+            around town for a DIY walking tour.
+          </p>
+        </div>
+        <div class="portObject container">
+          <img
+            src="images/portfolio-5.png"
+            alt="Image showing a image gallery"
+          />
+          <h3>Photo Gallery</h3>
+          <p>
+            This project shows pictures from a recent trip and allows for easy
+            navigation.
+          </p>
+        </div>
+        <div class="portObject container">
+          <img src="images/portfolio-6.png" alt="Image showing a calculator" />
+          <h3>Calculator</h3>
+          <p>
+            Someone can enter any numbers they like and use the blue button to
+            get the result.
+          </p>
+        </div>
+      </div>
+    </section>
 
-<!-- * Skills Section -->
+    <!-- * Skills Section -->
 
+    <section>
+      <div class="container" id="skills">
+        <div class="skills-title container">
+          <h2>Skills</h2>
+        </div>
+        <div class="skills container">
+          <div class="skills-image container">
+            <img src="images/skills.jpg" alt="Image representing skills" />
+          </div>
+          <div class="skills-description">
+            <p>
+              Some of the skills I have aquired throughout my education are as
+              follows:
+            </p>
+            <ul class="skills-list container">
+              <li>Design & Layout</li>
+              <li>CSS Animation</li>
+              <li>JavaScript Animation</li>
+              <li>JavaScript Node</li>
+              <li>Machine Learning</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- * Contact Section -->
 
-<!-- * Contact Section -->
+    <section>
+      <div class="container contact" id="contact">
+        <h2>Contact</h2>
+        <p class="conTitle">
+          If you're interested in chatting or want more information about what
+          I've been working on, I would love to hear from you!
+        </p>
+        <div class="info container">
+          <p>Phone<a class="phone" href="tel:5035551234">503.555.1234</a></p>
+          <p>
+            Email<a class="email" href="mailto:test@test.com">test@test.com</a>
+          </p>
+        </div>
+      </div>
+    </section>
 
-<section>
-  <div class="container contact" id="contact">
-    <h2>Contact</h2>
-    <p class="conTitle">If you're interested in chatting or want more information about what I've been working on, I would love to hear from you!</p>
-    <div class="info container">
-      <p>Phone<a class="phone" href="tel:5035551234">503.555.1234</a></p>
-      <p>Email<a class="email" href="mailto:test@test.com">test@test.com</a></p>
-    </div>
-  </div>
-</section>
-
-
-<footer class="footer container">
-<a href="#top">Austin Veatch</a>
-<nav class="footNav container">
-  <a class="navItem" href="#top">Home</a>
-  <a class="navItem" href="#portfolio">Portfolio</a>
-  <a class="navItem" href="#contact">Contact</a>
-</nav>
-<a id="mobileFoot" href="#top">BACK TO TOP</a>
-</footer>
-</body>
+    <footer class="footer container">
+      <a href="#top">Austin Veatch</a>
+      <nav class="footNav container">
+        <a class="navItem" href="#top">Home</a>
+        <a class="navItem" href="#portfolio">Portfolio</a>
+        <a class="navItem" href="#skills">Skills</a>
+        <a class="navItem" href="#contact">Contact</a>
+      </nav>
+      <a id="mobileFoot" href="#top">BACK TO TOP</a>
+    </footer>
+  </body>
 </html>

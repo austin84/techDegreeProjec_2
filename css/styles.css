@@ -1,4 +1,3 @@
-
 /* * Base Styles */
 * {
   margin: 0;
@@ -7,20 +6,19 @@
 }
 
 body {
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 h1,
 h2,
 h3 {
-  font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
+  font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
   font-weight: bold;
   margin: 20px 15px;
 }
 
-
 p {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 600;
   padding-bottom: 30px;
   margin: 0 20px;
@@ -44,26 +42,23 @@ img {
 }
 
 a {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   text-decoration: none;
   color: black;
 }
 
 a:hover {
-  color: #36ACD0;
+  color: #36acd0;
 }
 
 /* *Mobile First Styles */
-
 
 .navItem {
   align-items: center;
   background-color: white;
   margin: 3px 30px;
   padding: 2px 90px;
-  
 }
-
 
 .profileImage {
   max-width: 70%;
@@ -75,6 +70,39 @@ a:hover {
   background-color: white;
   padding-top: 20px;
   padding-bottom: 40px;
+}
+
+.skills {
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.skills-title {
+  padding: 30px 200px;
+  background-color: white;
+}
+.skills-image {
+  max-width: 95%;
+  padding: 15px;
+}
+.skills-list {
+  flex-direction: row;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  list-style: none;
+}
+
+.skills-list li {
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  justify-content: space-around;
+  max-width: 20%;
+  max-height: fit-content;
+  margin: 4px;
+  padding: 9px;
+  border-radius: 25%;
+  background-color: rgb(66, 133, 133);
 }
 
 .contact {
@@ -92,31 +120,26 @@ a:hover {
   margin-left: 1em;
 }
 
-
 .footer {
   flex-direction: row;
   justify-content: space-between;
-  padding: 1em .5em;
+  padding: 1em 0.5em;
   border-top: solid 1px lightgrey;
 }
 .footNav {
   display: none;
 }
 
-
 /* * Media Queries */
 
-
 @media screen and (min-width: 768px) {
-
-
   .mainNav {
     flex-direction: row;
     padding: 15px 0;
   }
 
   .navItem {
-    background-color: #FAFAFA;
+    background-color: #fafafa;
     padding: 3px 30px;
     margin: 0;
   }
@@ -156,55 +179,83 @@ a:hover {
     background-color: rgb(243, 223, 226);
     padding-top: 30px;
   }
-.portObject {
-  max-width: 50%;
-  align-self: center;
-}
-.contact {
-  margin: 2em 145px;
-}
+  .portObject {
+    max-width: 50%;
+    align-self: center;
+  }
+  .skills {
+    background-color: rgb(243, 223, 226);
+    padding-bottom: 30px;
+  }
+  .skills-title {
+    background-color: rgb(243, 223, 226);
+  }
+  #skills {
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(243, 223, 226);
+  }
+  .skills-image {
+    max-width: 45%;
+    background-color: rgb(243, 223, 226);
+  }
+  .skills-description {
+    max-width: 55%;
+    background-color: rgb(243, 223, 226);
+  }
+  .skills-list {
+    padding-right: 20px;
+  }
+  .contact {
+    margin: 2em 145px;
+  }
 
-.footer {
-  margin-bottom: 45px;
-}
+  .footer {
+    margin-bottom: 45px;
+  }
 
-#mobileFoot {
-  display: none;
-}
+  #mobileFoot {
+    display: none;
+  }
 
-.footNav {
-  display: flex;
-  flex-direction: row;
-}
+  .footNav {
+    display: flex;
+    flex-direction: row;
+  }
 
-.footNav .navItem {
-  padding: .1em 1em;
+  .footNav .navItem {
+    padding: 0.1em 1em;
+  }
 }
-
-}
-
 
 @media screen and (min-width: 1024px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 35px;
+  }
 
-.header {
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 30px 35px;
-}
+  .introParagraph {
+    align-self: flex-start;
+  }
 
-.introParagraph {
-  align-self: flex-start;
-}
+  .portObject {
+    max-width: 33%;
+  }
 
-.portObject {
-  max-width: 33%;
-}
+  .skills-image {
+    max-width: 65%;
+  }
 
-.contact {
-  margin: 2em 245px;
-}
+  .skills-description {
+    max-width: 35%;
+  }
 
+  .skills-list {
+    padding-right: 40px;
+  }
 
-
-
+  .contact {
+    margin: 2em 245px;
+  }
 }
